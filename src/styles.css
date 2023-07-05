@@ -1,0 +1,395 @@
+
+
+  
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Quicksand:wght@300&family=Sigmar&display=swap');
+body{
+    overflow-x: hidden;
+}
+#header{
+    color: #fff;
+    font-size: 4.4rem;
+    letter-spacing: 1px;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+  
+}
+
+.nav-link{
+    color: #fff;
+    font-size: 23px;
+    letter-spacing: 1px;
+    margin-right: 15px;
+
+}
+.btn-app > img{
+    width: 250px;
+    height: 75px;
+    margin-right: 25px;
+}
+html{
+    scroll-behavior: smooth;
+}
+.slogan{
+    height: 100%;
+    transform: translate(10%,-20%); 
+    margin: 5px; 
+}
+.navbar-toggler{
+    border: none;
+}
+
+#hero{
+    height: 100vh;
+    background-image: linear-gradient(rgb(0,0,0,0.7),rgb(0,0,0,0.7)), url("../resources/hero.jpg") ;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Open Sans';
+}
+.heading{
+    color: rgb(100,96,93);
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.heading_first{
+    color: rgb(100,96,93);
+    font-size: 54px;
+    text-transform: uppercase;
+
+}
+
+.heading_first::after{
+    display: block;
+    border-bottom: 4px solid orangered;
+    content: " ";
+    width: 140px;
+    text-align: center;
+    margin: 40px auto;
+   
+}
+
+
+.long-text{
+    color: rgb(180,180,179);
+    font-size: 32px;
+}
+.icon{
+    font-size: 54px;
+    color: orange;
+    vertical-align: middle;
+}
+
+.section-feature{
+    margin-top: 100px;
+    font-family: "Quicksand";
+}
+.row{
+    margin-bottom: 60px;
+}
+
+#head{
+
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+}
+.meal{
+    height: 350px;
+    width: auto;
+   
+}
+
+.section-meals{
+    
+    padding: 0;
+    
+}
+.meal-photo{
+    width: 100%;
+    margin: 0;
+    background-color: black;
+    
+}
+.meal-photo > img{
+    width: 100%;
+    height: auto;
+    transform: scale(1.03);
+    opacity: 0.7;
+}
+
+.meal:hover{
+    transform: scale(1);
+    opacity: 1;
+}
+.meals-showcase{
+    list-style: none;
+    width: 100%;
+}
+
+.meals-showcase > li{
+    display: block;
+    float: left;
+    width: 25%;
+}
+.section-how{
+    margin-top: 40px;
+    font-size: 36px;
+    text-align: center;
+    color:rgb(124,123,126);
+    font-family: 'Open Sans';
+}
+#phone{
+    margin-top: 55px;
+    margin-left: 150px;
+    height: auto;
+    width: 350px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    border-radius:30px ;
+}
+.work-step > p{
+  margin-left: 15px;
+}
+.work-step:first-child{
+    margin-top: 120px;
+}
+.work-step{
+    margin-top: 25px;
+}
+.number{
+color: #e67e22;
+border: 4px solid #e67e22;
+display: inline-block;
+border-radius: 50%;
+height: 55px;
+width: 55px;
+text-align: center;
+}
+.header{
+    font-size: 71px;
+    margin-top: 80px;
+    text-transform: uppercase;
+    text-align: center;
+
+  
+}
+.header::after{
+    display: block;
+    border-bottom: 4px solid orangered;
+    content: " ";
+    width: 140px;
+    margin: 80px auto;
+}
+.section-cities{
+    color: rgb(124,123,126);
+}
+#city{
+    width: 511px;
+    margin-bottom: 150px;
+}
+.city{
+    margin-left: 25px;
+}
+.client{
+    color: rgb(124,123,126);
+    background-image: linear-gradient(rgb(0,0,0,0.7),rgb(0,0,0,0.7)),url("../resources/back-customers.jpg");
+    background-size: cover;
+    color: #fff;
+    background-attachment: fixed;
+    height: 100vh;
+}
+.customer > p{
+    font-size: 45px;
+    font-style: italic;
+}
+.customer >p::before{
+    content: '\201C';
+    font-size: 200%;
+    display: block;
+ 
+}
+.container > img{
+    height: 50px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+.case{
+    margin-left: 50px;
+    background-color: #fff;
+    border-radius: 5px;
+    width: 90%;
+    margin-right: 5%;
+    padding: 10px;
+   
+}
+.sign-up{
+    color: rgb(124,123,126);
+    background-color: hsl(0, 0%, 96%);
+    height: 100vh;
+    width: 100%;
+    margin-bottom: 30px;
+
+}
+.case > ul > li{
+    font-size: 25px;
+    list-style: none;
+}
+.case > div{
+    border-bottom: 2px solid #e8e8e8;
+    padding: 10px;
+}
+.price{
+    color: #e67e22;
+    font-size: 500%;
+    padding-bottom: 20px;
+    height: 220px;
+    border-radius: 31px;
+}
+.price > span{
+    color: rgb(124,123,126);
+    font-size: 36px;
+    
+}
+.form-control,.form-select{
+    max-width: 750px;
+    font-size: 25px;
+}
+#textarea{
+    margin-right: 150px;
+    font-size: 25px;
+}
+.section-contact{
+   margin-left: 150px;
+   color: rgb(124,123,126);
+   font-size: 36px;
+   vertical-align: middle;
+    
+}
+footer{
+    background-color: #333;
+    padding: 50px;
+    color: #fff;
+}
+.footer-ul > li > a {
+    font-size: 21px;
+    color: rgb(124,123,126);
+   
+}
+li{
+    list-style: none;
+
+}
+.socials,
+.footer-ul{
+    display: flex;
+    flex-direction: row;
+
+  
+}
+.footer-ul > li{
+    margin-right: 15px;
+}
+.socials > li{
+    margin-right: 15px;
+    
+}
+.footer-ul > li > a:hover
+{
+    color: #fff;
+}
+#te{
+    display: flex;
+    justify-content: center;
+}
+#phus{
+    display: flex;
+    justify-content: flex-end; 
+}
+
+
+@media only screen and (max-width: 1203px){
+   #navbarSupportedContent > ul > li > a{
+    font-size: 18px;
+    margin-right: 1px;
+    letter-spacing: 0;
+    
+   }
+   #city{
+    margin-bottom:0;
+   }
+   #hero{
+    width: 100%;
+    background-size: contain;
+    height: 1000px;
+    background-position: left;
+   }
+   #navbarSupportedContent{
+    display: block;
+   }
+   .row{
+    padding: 0;
+   }
+   #header{
+    font-size: 37px;
+   }
+   .customer>p{
+    font-size: 30px;
+    
+   }
+   .header{
+    margin-top: 0 ;
+   }
+   .price > span{
+    font-size: 18px;
+   }
+   #foo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+   
+}
+@media only screen and (max-width: 1023px){
+    .footer-ul > li >a{
+        font-size: 18px;
+
+    }
+    label{
+        margin-right: 1px;
+    }
+    .header{
+        font-size: 37px;
+    }
+
+    
+}
+@media only screen and (max-width: 767px){
+    .icon{
+        font-size: 30px;
+    }
+    .footer-ul > li >a{
+        font-size: 12px;
+
+    }
+  
+    .case{
+        width: 500px;
+    }
+
+}
+
+@media only screen and (max-width: 480px){
+    #hero{
+        height: 500px;
+    }
+    #sign-up{
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+    }
+}
